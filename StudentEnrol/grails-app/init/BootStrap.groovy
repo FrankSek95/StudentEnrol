@@ -28,6 +28,26 @@ def course3=new Course( title: 'PCP',
 				startDate: new Date('19/01/2015'),
 				endDate: new Date('19/01/2020')).save()
 
+
+
+
+def student1=new Student( name: 'Shabaz Khalid',
+			studentid: 'b4010311',
+			dob: ('15/02/1996'),
+			email: 'Shabaz.Khalid@shu.ac.uk',
+			username: 'S.Khalid',
+			password: 'password',
+			course: 'Computing').save()
+
+def student2=new Student( name: 'Frank Sekyere',
+			studentid: 'b4019796',
+			dob: ('19/04/1995'),
+			email: 'Frank.Sekyere@shu.ac.uk',
+			username: 'F.Sekyere',
+			password: 'Frank09',
+			course: 'Computing').save()
+
+
     }
     def destroy = {
     }

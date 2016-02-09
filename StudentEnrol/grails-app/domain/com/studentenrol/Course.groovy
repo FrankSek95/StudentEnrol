@@ -28,7 +28,7 @@ title()
 
 department()
 
-description maxSizw: 5000
+description maxSize: 5000
 
 leader()
 
