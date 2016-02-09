@@ -47,6 +47,21 @@ def student2=new Student( name: 'Frank Sekyere',
 			password: 'Frank09',
 			course: 'Computing').save()
 
+def lecturer1=new Lecturer( name: 'Tonderai Maswera',
+			post: 'N/a',
+			email: 't.maswera@shu.ac.uk',
+			department: 'Computing',
+			subject: 'Web Architectures',
+			research: 'N/A').save()
+
+def lecturer2=new Lecturer( name: 'Lynn Dawson',
+			post: 'N/a',
+			email: 'l.Dawson@shu.ac.uk',
+			department: 'Computing',
+			subject: 'IT Service Delivery',
+			research: 'N/A').save()
+
+
 
     }
     def destroy = {
